@@ -20,7 +20,7 @@ header{
 .nav-header ul li a{
     text-decoration: none;
     color: var(--color-gray1);
-    font-family: var(--font=-family-alexandria);
+    font-family: var(--font-family-alexandria);
     font-size: var(--font-size-text1);
 }
 
@@ -37,7 +37,7 @@ header{
     padding: 10px 24px;
     background-color: transparent;
     color: var(--color-white);
-    font-family: var(--font=-family-alexandria);
+    font-family: var(--font-family-alexandria);
     text-decoration: none;
 }
 
@@ -46,7 +46,7 @@ header{
     gap: 6px;
     background-color: var(--color-green);
     color: #000;
-    font-family: var(--font=-family-alexandria);
+    font-family: var(--font-family-alexandria);
     text-decoration: none;
     border-radius: 40px;
 }
