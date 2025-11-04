@@ -50,3 +50,69 @@ header{
     text-decoration: none;
     border-radius: 40px;
 }
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0px;    
+    gap: 100px;
+}
+
+.content-main{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.content-main span{
+    display: flex;
+    align-self: self-start;
+    padding: 10px 12px;
+    gap: 8px;
+    color: var(--color-green);
+    font-family: var(--font-family-alexandria);
+    border: 1px solid var(--color-gray3);
+    border-radius: 24px;
+}
+
+h1{
+    color: var(--color-white);
+    font-family: var(--font-family-alexandria);
+    font-size: var(--font-size-title1);
+    width: 521px;
+}
+
+.content-main p{
+    color: var(--color-gray1);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-subtitle);
+    width: 583px;
+}
+
+.container-btn-main{
+    display: flex;
+    gap: 16px;
+    margin-top: 20px;
+}
+
+.btn-green{
+    background-color: var(--color-green);
+    color: #000;
+    padding: 14px 24px;
+    font-family: var(--font-family-alexandria);
+    border-radius: 40px;
+    text-decoration: none;
+}
+
+.btn-secudary{
+    display: flex;
+    gap: 6px;
+    color: var(--color-white);
+    padding: 14px 24px;
+    font-family: var(--font-family-alexandria);
+    border: 1px solid var(--color-gray2);
+    border-radius: 40px;
+    text-decoration: none;
+}
+
