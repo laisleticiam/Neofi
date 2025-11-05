@@ -135,3 +135,80 @@ h1{
     gap: 50px;
     align-items: center;
 }
+
+.section-breakdown{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    padding: 60px 0px;
+}
+
+.content-breakdown{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.content-breakdown span{
+    color: var(--color-green);
+    font-family: var(--font-family-alexandria);
+    padding: 12px 20px;
+    border: 1px solid var(--color-gray3);
+    border-radius: 24px;
+    font-size: var(--font-size-text2);
+    }
+
+.content-breakdown h2{
+    color: var(--color-white);
+    font-size: var(--font-size-title2);
+    font-family: var(--font-family-alexandria);
+    font-weight: 400;
+}
+
+.content-breakdown p{
+    color: var(--color-gray1);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-button);
+    text-align: center;
+    width: 572px;
+}
+
+.container-card-breakdown{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card-breakdown{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap: 36px;
+    padding: 48px 36px;
+    border-radius: 12px;
+    background-color: #FFFFFF04;
+    border: 1PX SOLID var(--color-gray3);
+}
+
+.card-breakdown div{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+}
+
+.card-breakdown div h3{
+    color: var(--color-white);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-subtitle);
+    font-weight: 400;
+}
+
+.card-breakdown div p{
+    color: var(--color-gray1);
+    font-family: var(--font-family-alexandria);
+    font-size: var(--font-size-text1);
+    width: 338px;
+}
