@@ -281,3 +281,90 @@ h1{
     font-family: var(--font-family-inter);
     font-size: var(--font-size-subtitle);
 }
+
+.section-blockchain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    padding: 60px 0px;
+}
+
+.content-blockchain{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.content-blockchain span{
+    color: var(--color-green);
+    font-family: var(--font-family-alexandria);
+    padding: 12px 20px;
+    border: 1px solid var(--color-gray3);
+    border-radius: 24px;
+    font-size: var(--font-size-text2);
+}
+
+.content-blockchain h2{
+    color: var(--color-white);
+    font-size: var(--font-size-title2);
+    font-family: var(--font-family-alexandria);
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.content-blockchain p{
+    color: var(--color-gray1);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-button);
+    width: 572px;
+    text-align: center;
+    width: 644px;
+    line-height: 140%;
+    }
+
+.container-blockchain{
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-cards-blockchain{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.card-blockchain{
+    background-color: var(--color-gray4);
+    border: 1px solid var(--color-gray2);
+    padding: 30px 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 24px
+}
+
+.card-blockchain div{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.card-blockchain div h3{
+    color: var(--color-white);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-subtitle);
+    font-weight: 400;
+    line-height: 140%;
+   
+}
+
+.card-blockchain div p{
+    color: var(--color-gray1);
+    width: 530px;
+    font-family: var(--font-family-alexandria);
+     line-height: 140%;
+}
