@@ -358,13 +358,75 @@ h1{
     font-family: var(--font-family-inter);
     font-size: var(--font-size-subtitle);
     font-weight: 400;
-     line-height: 140%;
+    line-height: 140%;
    
 }
 
 .card-blockchain div p{
     color: var(--color-gray1);
     width: 530px;
-    font-family: var(--font-family-alexandria);
-   
+    font-family: var(--font-family-alexandria);   
 }
+
+.section-faq{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    padding: 60px 0px;
+    background-color: var(--color-gray4);
+}
+
+.content-faq{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.content-faq span{
+    color: var(--color-green);
+    font-family: var(--font-family-alexandria);
+    padding: 12px 20px;
+    border: 1px solid var(--color-gray3);
+    border-radius: 24px;
+    font-size: var(--font-size-text2);
+}
+
+.content-faq h2{
+    color: var(--color-white);
+    font-size: var(--font-size-title2);
+    font-family: var(--font-family-alexandria);
+    font-weight: 400;
+}
+
+.content-faq p{
+    color: var(--color-gray1);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-button);
+    text-align: center;
+    width: 644px;
+    line-height: 140%;
+}
+
+.container-faq{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.faq-item{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 20px;
+    border: 1px solid var(--color-gray3);
+}
+.faq-item h3{
+    color: var(--color-white);
+    font-family: var(--font-family-alexandria);
+    font-size: var( --font-size-text1);
+    font-weight: 400;   
+    width: 792px;
+}
+
