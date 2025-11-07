@@ -358,7 +358,7 @@ h1{
     font-family: var(--font-family-inter);
     font-size: var(--font-size-subtitle);
     font-weight: 400;
-    line-height: 140%;
+     line-height: 140%;
    
 }
 
@@ -366,5 +366,5 @@ h1{
     color: var(--color-gray1);
     width: 530px;
     font-family: var(--font-family-alexandria);
-     line-height: 140%;
+   
 }
