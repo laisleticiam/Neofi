@@ -430,3 +430,47 @@ h1{
     width: 792px;
 }
 
+
+.section-revolutionary{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding: 60px 0px;
+}
+
+.section-revolutionary span{
+    color: var(--color-green);
+    font-family: var(--font-family-alexandria);
+    padding: 12px 20px;
+    border: 1px solid var(--color-gray3);
+    border-radius: 24px;
+    font-size: var(--font-size-text2);
+}
+
+.section-revolutionary h2{
+    color: var(--color-white);
+    font-size: var(--font-size-title2);
+    font-family: var(--font-family-alexandria);
+    font-weight: 400;
+    text-align: center;
+    text-transform: capitalize;
+    width: 878px;
+}
+
+.section-revolutionary p{
+    color: var(--color-gray1);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-button);
+    text-align: center;
+    width: 644px;
+    line-height: 140%;
+}
+
+.section-revolutionary a{
+    padding: 14px 24px;
+    background-color: var(--color-green);
+    color: #000;
+    font-family: var(--font-family-alexandria);
+    text-decoration: none;
+}
