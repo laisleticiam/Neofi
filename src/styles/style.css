@@ -474,3 +474,88 @@ h1{
     font-family: var(--font-family-alexandria);
     text-decoration: none;
 }
+
+footer{
+    display: flex;
+    justify-content: center;
+    gap: 126px;
+    padding: 40px 0px;
+}
+
+.container-navigation-footer{
+    display: flex;
+    gap: 92px;
+    align-items: flex-start;
+}
+
+.footer-navigation-item{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.footer-navigation-item h2{
+    color: var(--color-white);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-subtitle);
+    font-weight: 400;
+}
+
+.navigation-item ul{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    list-style: none;
+}
+
+.navigation-item ul li a{ 
+    color: var(--color-gray1);
+    font-family: var(--font-family-alexandria);
+    font-size: var(--font-size-text2);
+    text-decoration: none;    
+}
+
+.footer-updates{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-updates h2{
+    color: var(--color-white);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-subtitle);
+    font-weight: 400;
+    width: 198px;
+}
+
+form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--color-gray3);
+    padding-bottom: 16px;
+}
+
+form input{
+    padding: 12px 5px;
+    background-color: transparent;
+    color: var(--color-white);
+    outline: none;
+}
+
+form button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: var(--color-green);
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+form button :hover{
+    background-color: #008c00;
+}
